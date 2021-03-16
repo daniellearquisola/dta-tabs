@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DTA</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="main-wrapper">
+        <div class="tab-bar">
+          <button class="tab-bar__tab active" onclick="onTabClick(0)">
+            About Me
+          </button>
+          <button class="tab-bar__tab" onclick="onTabClick(1)">Games</button>
+          <button class="tab-bar__tab" onclick="onTabClick(2)">Contact</button>
+        </div>
+        <div class="content-wrapper">
+          <div class="content">
+            <button
+              class="content__header active"
+              onclick="onTabClickMobile(0)"
+            >
+              <p class="content__header-text">About Me</p>
+              <div class="content__header-icon">
+                <div class="icon-minus"></div>
+                <div class="icon-plus"></div>
+              </div>
+            </button>
+            <div class="content__body active">
+              <p class="content__body-text">
+                My name is Danielle Arquisola. I'm a fullstack developer who
+                wants to create something anyone can enjoy. Although I started
+                out with a healthcare background, programming and I became fast
+                friends. I get excited about learning about people and seeing
+                new perspectives. I enjoy reading, practicing yoga, playing
+                video games, going to escape rooms, and drinking bubble tea.
+                <br />
+                <br />
+                Phasellus et consectetur diam. Nam consequat, ante sed dictum
+                feugiat, mi eros iaculis ex, ac finibus turpis mauris in dui.
+                Aliquam blandit nisi gravida enim lacinia fermentum. Mauris
+                molestie scelerisque ligula sed dignissim. Donec sit amet tempor
+                felis, quis condimentum metus. Nullam sit amet facilisis nisl.
+                Ut finibus est quis ligula finibus, non vestibulum enim finibus.
+                Cras a euismod tortor, in semper ligula.
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <button class="content__header" onclick="onTabClickMobile(1)">
+              <p class="content__header-text">Games</p>
+              <div class="content__header-icon">
+                <div class="icon-minus"></div>
+                <div class="icon-plus"></div>
+              </div>
+            </button>
+            <div class="content__body">
+              <p class="content__body-text">
+                I am currently playing League of Legends, Lego Harry Potter,
+                Roblox, and Animal Crossing.
+                <br />
+                <br />
+                Quisque a turpis fermentum, dapibus mauris quis, dignissim
+                ligula. Aliquam aliquet tellus nunc, non fermentum leo dictum
+                vel. Morbi vehicula laoreet felis ac blandit. Sed mi urna,
+                feugiat nec rhoncus vitae, sollicitudin non dui. Vestibulum in
+                porttitor urna, ut posuere elit. Suspendisse mi magna, molestie
+                nec aliquam id, porttitor in ante. Nullam posuere ipsum odio, at
+                placerat ante eleifend vitae. Suspendisse vestibulum magna
+                pretium velit venenatis venenatis. Donec dapibus, justo ut
+                aliquam varius, quam tortor dignissim tellus, imperdiet
+                scelerisque risus ex ac magna. Nunc sed purus nibh. Phasellus
+                elit erat, scelerisque sed volutpat non, interdum vitae urna.
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <button class="content__header" onclick="onTabClickMobile(2)">
+              <p class="content__header-text">Contact</p>
+              <div class="content__header-icon">
+                <div class="icon-minus"></div>
+                <div class="icon-plus"></div>
+              </div>
+            </button>
+            <div class="content__body">
+              <div class="content__percentages">
+                <div class="content__percentages-item">
+                  <p class="content__percentages-item-num">45%</p>
+                  <p class="content__percentages-item-type">lorem</p>
+                </div>
+                <div class="content__percentages-item">
+                  <p class="content__percentages-item-num">40%</p>
+                  <p class="content__percentages-item-type">ipsum</p>
+                </div>
+                <div class="content__percentages-item">
+                  <p class="content__percentages-item-num">15%</p>
+                  <p class="content__percentages-item-type">dolar</p>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <p class="content__body-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                nibh arcu, ultricies nec purus quis, consequat luctus orci. Sed
+                non mi nisi. Donec vulputate erat odio, eget lacinia lectus
+                accumsan sed. Phasellus diam lorem, ullamcorper quis velit a,
+                ultricies facilisis turpis. Sed laoreet efficitur odio, ut
+                consequat arcu iaculis non. Quisque lectus ligula, venenatis
+                quis ullamcorper vitae, euismod in nisi. Sed sed arcu tortor.
+                Phasellus a iaculis metus, sed suscipit dui. Nunc mollis, ipsum
+                at tristique dignissim, enim mi sodales nulla, sed dapibus lorem
+                tortor et nisi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
